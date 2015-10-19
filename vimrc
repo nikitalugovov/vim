@@ -33,4 +33,13 @@ set backspace=2
 nnoremap gV `[v`] 
 set textwidth=80        " wrap text at 80 characters
 
+" splits
+set splitbelow          " more natural split behaviour
+set splitright          " more natural split behaviour
+" easier navigation between splits
+nnoremap <C-J> <C-W><C-J>
+nnoremap <C-K> <C-W><C-K>
+nnoremap <C-L> <C-W><C-L>
+nnoremap <C-H> <C-W><C-H>
+
 source ~/.vim/nerdtree.vim
