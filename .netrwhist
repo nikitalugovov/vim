@@ -1,0 +1,7 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhist_cnt =5
+let g:netrw_dirhist_1='/Users/lugovov/.vim'
+let g:netrw_dirhist_2='/Users/lugovov/.vim/plugin'
+let g:netrw_dirhist_3='/Users/lugovov/.vim/plugin/neocomplete'
+let g:netrw_dirhist_4='/Users/lugovov/.vim/bundle'
+let g:netrw_dirhist_5='/Users/lugovov/.vim/bundle/nerdtree.vim'
