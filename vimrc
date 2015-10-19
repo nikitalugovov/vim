@@ -1,3 +1,7 @@
+if $SHELL =~ 'bin/fish'
+  set shell=/bin/sh
+endif
+
 source ~/.vim/vundle.vim " vundle configuration
 
 " Кодировка терминала, должна совпадать с той, которая используется для вывода в терминал
