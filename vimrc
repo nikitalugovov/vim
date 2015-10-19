@@ -31,5 +31,6 @@ set foldmethod=indent   " fold based on indent level
 set backspace=2
 " highlight last inserted texty
 nnoremap gV `[v`] 
+set textwidth=80        " wrap text at 80 characters
 
 source ~/.vim/nerdtree.vim
