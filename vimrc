@@ -13,12 +13,14 @@ set encoding=utf8
 
 syntax enable           " syntax highlighting
 set number              " line numbers
-set tabstop=2           " spaces per tab
-set softtabstop=2       " spaces per tab when removing
+set ruler               " line / column at the bottom
+set tabstop=4           " spaces per tab
+set softtabstop=4       " spaces per tab when removing
 set autoindent          " auto indents after indented line
+set cindent             " c-like indentation
 set smartindent         " indents concious of language in use
 set expandtab           " spaces instead of tabs
-set shiftwidth=2        " lenght when indenting further or not
+set shiftwidth=4        " lenght when indenting further or not
 set cursorline          " highlight line with cursor
 " set showmatch         " highlight matching brecket
 colorscheme badwolf     " set colorcheme (should be installed separately)
