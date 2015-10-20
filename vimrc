@@ -40,6 +40,8 @@ nnoremap gV `[v`]
 set textwidth=80        " wrap text at 80 characters
 set colorcolumn=+1      " ruler
 set linebreak           " wrap text at textwidth
+" Display extra whitespace
+set list listchars=tab:»·,trail:·,nbsp:·
 
 " splits
 set splitbelow          " more natural split behaviour
