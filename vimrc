@@ -38,6 +38,8 @@ set backspace=2
 " highlight last inserted texty
 nnoremap gV `[v`] 
 set textwidth=80        " wrap text at 80 characters
+set colorcolumn=+1      " ruler
+set linebreak           " wrap text at textwidth
 
 " splits
 set splitbelow          " more natural split behaviour
